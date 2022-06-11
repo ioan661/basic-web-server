@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ÎNREGISTRARE</title>
+        <link rel="stylesheet" href="css/stil.css" />
+        <style>
+            #bg1 {
+                background:blue url(imagini/bg3.jpg) repeat scroll left center;
+                padding: 15px;
+                font-size:20px;
+            }
+            #bg4 {
+                background: url(imagini/bg7.png) no-repeat scroll left,url(imagini/bg7.png) no-repeat scroll right;
+                padding: 15px;
+                font-size: 20px;
+            }
+            /* .bg {
+                background: url(imagini/bg1.jpg) no-repeat center fixed;
+                background-size: cover;
+            } */
+        </style>
+    </head>
+    <body>
+        <br>
+        <form>
+            <fieldset id="bg4">
+                <legend style="background-color:#ffd800">Informatii generale</legend>
+                <label for="numeU">Nume utilizator:</label>
+                <input type="text" id="numeU" name="numeU"><br>
+
+                <label for="pass">Parola:</label>
+                <input type="password" id="pass" name="pass"><br>
+
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume"><br>
+
+                <label for="Pnume">Preume:</label>
+                <input type="text" id="Pnume" name="Pnume"><br>
+
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="mail"><br>
+
+                <label for="tele">Telefon:</label>
+                <input type="tel" id="tel" name="tel"><br>                
+            </fieldset>
+            <fieldset id="bg1">
+                <legend style="background-color:#ffd800">Informații personale</legend>
+                
+                <label for="gen">Sexul:</label>
+                <select id="gen" name="gen">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select>
+                <br>
+                <br>
+                <label for="mancare">Mancarea preferată:</label>
+                <input list="mancare"> 
+                <datalist id="mancare">
+                    <option value="Pizza"></option>
+                    <option value="Lasagna"></option>
+                    <option value="Paste"></option>
+                    <option value="Supa crema"></option>
+                    <option value="Hamburger"></option>
+                    <option value="Friptura"></option>
+                    <option value="Fructe de mare"></option>
+                    <option value="Bors"></option>
+                </datalist>
+                <br>
+                <br>
+                <label for="cul">Culoarea preferată:</label>
+                <input type="color" id="cul" name="cul"><br>
+                <br>
+                <label for="date">Data nașterii:</label>
+                <input type="date" id="date" name="date"><br>
+                <br>
+                <label for="ora">Ora nașterii:</label>
+                <input type="time" id="ora" name="ora"><br>
+                <br>
+
+                <label for="varsta">Varsta:</label>
+                <input type="range"><br>
+            
+                <br>
+                <label for="url">Adresa paginii personale:</label>
+                <input type="url" id="url" name="url"><br>
+                <br>
+                <label for="desc">Descriere:</label>
+                
+                <textarea name="desc">
+                    descriere..    
+                </textarea>
+            </fieldset>
+            <button type="button" disabled> Înregistrează </button>
+        </form>
+    </body>
+</html>

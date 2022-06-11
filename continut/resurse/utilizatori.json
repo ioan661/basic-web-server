@@ -1,0 +1,12 @@
+[
+    { 
+        "utilizator":"admin",
+        "parola":"admin"
+    }, 
+
+    { 
+        "utilizator":"test",
+        "parola":"test"
+    } 
+]
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Unirii</strada>
+            <numar>23</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <contact>
+            <nrTel>0777777777</nrTel>
+            <mail>PopesIon@yahoo.com</mail>
+        </contact>
+    </persoana>
+    <persoana id="2">
+        <nume>Vasilescu</nume>
+        <prenume>Vasile</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Pacii</strada>
+            <numar>12</numar>
+            <localitate>Hemeius</localitate>
+            <judet>Bacau</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <contact>
+            <nrTel>0775555777</nrTel>
+            <mail>VVas@hotmail.com</mail>
+        </contact>
+    </persoana>
+    <persoana id="3">
+        <nume>Ionescu</nume>
+        <prenume>Constantin</prenume>
+        <varsta>34</varsta>
+        <adresa>
+            <strada>Revolutiei</strada>
+            <numar>12D</numar>
+            <localitate>Vaslui</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <contact>
+            <nrTel>0775555667</nrTel>
+            <mail>ConJopn@gmail.com</mail>
+        </contact>
+    </persoana>
+    <persoana id="4">
+        <nume>Toma</nume>
+        <prenume>Alexandru</prenume>
+        <varsta>26</varsta>
+        <adresa>
+            <strada>Izvorului</strada>
+            <numar>435</numar>
+            <localitate>Magura</localitate>
+            <judet>Bacau</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <contact>
+            <nrTel>0225555667</nrTel>
+            <mail>Toru@gmail.com</mail>
+        </contact>
+    </persoana>
+    <persoana id="5">
+        <nume>Popa</nume>
+        <prenume>Dorian</prenume>
+        <varsta>35</varsta>
+        <adresa>
+            <strada>Zambilei</strada>
+            <numar>12</numar>
+            <localitate>Domnesti</localitate>
+            <judet>Ilfov</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <contact>
+            <nrTel>0225555667</nrTel>
+            <mail>PoDorian@outlook.com</mail>
+        </contact>
+    </persoana>
+    
+</persoane>
